@@ -1,0 +1,7 @@
+### Fetch important events by date
+POST http://localhost:8080/api/events
+Content-Type: application/json
+
+{
+   "eventDate": "01-01-1988"
+}
